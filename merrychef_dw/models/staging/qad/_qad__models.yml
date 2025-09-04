@@ -1,0 +1,19 @@
+version: 2
+
+models:
+#  - name: stg_qad_ae__is_mstr
+#  - name: stg_qad_ae__ld_det
+#  - name: stg_qad_ae__loc_mstr
+#  - name: stg_qad_ae__pt_mstr
+#  - name: stg_qad_ae__sct_det
+#  - name: stg_qad_ae__si_mstr
+#  - name: stg_qad_ae__tr_hist
+#  - name: stg_qad_ae__bom_mstr
+#  - name: stg_qad_ae__ps_mstr
+  - name: stg_qad__ad_mstr
+  - name: stg_qad__cinvoice
+  - name: stg_qad__pt_mstr
+  
+
+
+      

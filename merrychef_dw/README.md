@@ -1,0 +1,1 @@
+The Merrychef dbt project is the central transformation layer for the company’s data warehouse. It uses dbt (Data Build Tool) to convert raw ingested data into clean, reliable, and analytics-ready models.

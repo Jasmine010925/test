@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: tensor
+    # description: "_"
+    database: merrychef_dw  
+    schema: raw 
+    tables:
+    - name: tensor__BasicDetail
+    - name: tensor__Benefit
+    - name: tensor__BenefitType
+    - name: tensor__ClockingRecord
+    - name: tensor__Company
+    - name: tensor__Country
+    - name: tensor__DayPayDate
+    - name: tensor__DayPaybandDetail
+    - name: tensor__DaySummaryDetail
+    - name: tensor__DaySummaryHeader
+    - name: tensor__DayTotal
+    - name: tensor__Department
+    - name: tensor__Employee
+    - name: tensor__EmployeeMiscText
+    - name: tensor__EmployeeMiscTextItem
+    - name: tensor__EmploymentDetails
+    - name: tensor__Financial
+    - name: tensor__FixedControlItem
+    - name: tensor__PayBand
+    - name: tensor__PayBandCategory
+    - name: tensor__Position
+    - name: tensor__Salary
+    - name: tensor__SalaryLevel
+    - name: tensor__Site
+    - name: tensor__SmartCard
+    - name: tensor__SmartCardStatus
+    - name: tensor__Supervision
+    - name: tensor__vBenefits
+    - name: tensor__vClockingTypes
+    - name: tensor__vPhysicalClockings
+    - name: tensor__vSSMSupervisor
+

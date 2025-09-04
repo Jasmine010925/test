@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: qad
+    description: "Synced tables from QAD AE"
+    database: merrychef_dw  
+    schema: raw
+    tables:
+      #- name: qad__816_is_mstr
+      #- name: airbyte_816_ld_det
+      #- name: airbyte_816_loc_mstr
+      - name: qad__816_pt_mstr
+      #- name: airbyte_816_sct_det
+      #- name: airbyte_816_si_mstr
+      #- name: airbyte_816_tr_hist
+      #- name: airbyte_816_bom_mstr
+      #- name: airbyte_816_ps_mstr
+      - name: qad__816_ad_mstr
+      - name: qad__816_cinvoice
+      #- name: airbyte_816_ro_det

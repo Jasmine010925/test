@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_kitchenconnect__software_distribution
+  - name: stg_kitchenconnect__file_distribution
+  - name: stg_kitchenconnect__devices
+  - name: stg_kitchenconnect__level_5_nodes
+  - name: stg_kitchenconnect__level_4_nodes
+  - name: stg_kitchenconnect__level_3_nodes
+  - name: stg_kitchenconnect__level_2_nodes
+  - name: stg_kitchenconnect__level_1_nodes
+  - name: stg_kitchenconnect__yesterdays_productions
+
+
+
+      

@@ -1,0 +1,26 @@
+[0m08:22:35.055786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A274A5210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2746A4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A274A5450>]}
+
+
+============================== 08:22:35.058806 | fa2ad204-2783-4f43-8de1-2f8800d34431 ==============================
+[0m08:22:35.058806 [info ] [MainThread]: Running with dbt=1.10.10
+[0m08:22:35.059786 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run --select models', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'False', 'printer_width': '80', 'log_path': 'C:\\Users\\wj1045\\Documents\\Projects\\merrychef_dw\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\wj1045\\.dbt', 'warn_error_options': "WarnErrorOptionsV2(error=[], warn=[], silence=['UnusedResourceConfigPath'])", 'write_json': 'True'}
+[0m08:22:35.064789 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'merrychef_dw'
+[0m08:22:35.065790 [debug] [MainThread]: Command `dbt run` failed at 08:22:35.065790 after 0.08 seconds
+[0m08:22:35.066790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A274A55D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A274D9610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A274D8D90>]}
+[0m08:22:35.066790 [debug] [MainThread]: Flushing usage events
+[0m08:22:35.936227 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:39:13.982890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D09D52A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D09D51550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D09D53E50>]}
+
+
+============================== 08:39:13.985891 | 4d8942a9-5fa1-43b0-af7f-4553a6b3cf76 ==============================
+[0m08:39:13.985891 [info ] [MainThread]: Running with dbt=1.10.10
+[0m08:39:13.985891 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\wj1045\\Documents\\Projects\\merrychef_dw\\logs', 'profiles_dir': 'C:\\Users\\wj1045\\.dbt', 'static_parser': 'True', 'warn_error_options': "WarnErrorOptionsV2(error=[], warn=[], silence=['UnusedResourceConfigPath'])"}
+[0m08:39:13.988890 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'merrychef_dw'
+[0m08:39:13.989890 [debug] [MainThread]: Command `dbt run` failed at 08:39:13.989890 after 0.06 seconds
+[0m08:39:13.989890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D09D80D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D030D9E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D09D4A6D0>]}
+[0m08:39:13.990906 [debug] [MainThread]: Flushing usage events
+[0m08:39:14.610499 [debug] [MainThread]: An error was encountered while trying to flush usage events

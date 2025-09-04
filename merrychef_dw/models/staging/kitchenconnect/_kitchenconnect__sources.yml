@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: kitchenconnect
+    description: "KitchenConnect Data"
+    database: merrychef_dw  
+    schema: raw
+    tables:
+      - name: kc_pura_vida__Devices
+      - name: kc_pura_vida__File_Sends
+      - name: kc_pura_vida__Node_Level_1
+      - name: kc_pura_vida__Node_Level_2
+      - name: kc_pura_vida__Node_Level_3
+      - name: kc_pura_vida__Node_Level_4
+      - name: kc_pura_vida__Node_Level_5
+      - name: kc_pura_vida__Software_Sends
+      - name: kc_pura_vida__Yesterdays_Productions
+      - name: kc_tim_hortons__Devices
+      - name: kc_tim_hortons__File_Sends
+      - name: kc_tim_hortons__Node_Level_1
+      - name: kc_tim_hortons__Node_Level_2
+      - name: kc_tim_hortons__Node_Level_3
+      - name: kc_tim_hortons__Node_Level_4
+      - name: kc_tim_hortons__Node_Level_5
+      - name: kc_tim_hortons__Software_Sends
+      - name: kc_tim_hortons__Yesterdays_Productions
+      - name: km_merrychef__Devices
+      - name: km_merrychef__File_Sends
+      - name: km_merrychef__Node_Level_1
+      - name: km_merrychef__Node_Level_2
+      - name: km_merrychef__Node_Level_3
+      - name: km_merrychef__Node_Level_4
+      - name: km_merrychef__Node_Level_5
+      - name: km_merrychef__Software_Sends
+      - name: km_merrychef__Yesterdays_Productions

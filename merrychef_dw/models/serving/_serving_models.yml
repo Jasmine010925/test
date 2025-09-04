@@ -1,0 +1,12 @@
+models:
+  - name: active_directory_extract
+  - name: current_card_status
+  - name: item_label_extract
+  - name: suppliers_extract
+    config:
+      grants:
+        select: ["airbyte_user"]
+  - name: invoice_vouchers_extract
+    config:
+      grants:
+        select: ["airbyte_user"]

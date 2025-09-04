@@ -1,0 +1,36 @@
+version: 2
+
+models:
+    #- stg_open_exchange_rates__open_exchange_rates
+    - name: stg_tensor__basic_detail
+    #- stg_tensor__benefit
+    #- stg_tensor__benefit_type
+    #- stg_tensor__clocking_record
+    - name: stg_tensor__company
+    #- stg_tensor__country
+    #- stg_tensor__day_pay_date
+    #- stg_tensor__day_payband_detail
+    #- stg_tensor__day_summary_detail
+    #- stg_tensor__day_summary_header
+    #- stg_tensor__day_total
+    - name: stg_tensor__department
+    - name: stg_tensor__employee
+    - name: stg_tensor__employee_misc_text
+    - name: stg_tensor__employee_misc_text_item
+    - name: stg_tensor__employment_details
+    #- stg_tensor__financial
+    - name: stg_tensor__fixed_control_item
+    #- stg_tensor__pay_band
+    #- stg_tensor__pay_band_category
+    - name: stg_tensor__position
+    #- stg_tensor__salary
+    #- stg_tensor__salary_level
+    - name: stg_tensor__site
+    - name: stg_tensor__smart_card
+    - name: stg_tensor__smart_card_status
+    - name: stg_tensor__supervision
+    #- stg_tensor__v_benefits
+    #- stg_tensor__v_clocking_types
+    #- stg_tensor__v_physical_clockings
+    #- stg_tensor__v_ssm_supervisor
+

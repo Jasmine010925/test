@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: manual
+    # description: "_"
+    database: merrychef_dw  
+    schema: manual 
+    tables:
+    - name: employee_locations
+
